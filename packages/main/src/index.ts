@@ -29,6 +29,8 @@ let mainWindow: BrowserWindow | null = null;
 const createWindow = async () => {
   mainWindow = new BrowserWindow({
     show: false, // Use 'ready-to-show' event to show window
+    vibrancy: 'under-window',
+    visualEffectState: 'active',
     webPreferences: {
       nativeWindowOpen: true,
       preload: join(__dirname, '../../preload/dist/index.cjs'),
@@ -71,7 +73,6 @@ const createWindow = async () => {
 
   await mainWindow.loadURL(pageUrl);
 };
-
 
 app.on('second-instance', () => {
   // Someone tried to run a second instance, we should focus our window.
