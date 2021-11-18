@@ -1,3 +1,5 @@
+# FOR ELECTRON TRANSPARENT BUG REPORTED, RUN: npm run watcj
+
 # Vite Electron Builder Boilerplate v2
 
 [![GitHub issues by-label](https://img.shields.io/github/issues/cawa-93/vite-electron-builder/help%20wanted?label=issues%20need%20help&logo=github)](https://github.com/cawa-93/vite-electron-builder/issues?q=label%3A%22help+wanted%22+is%3Aopen+is%3Aissue)
@@ -63,13 +65,6 @@ Vite provides you with many useful features, such as: `TypeScript`, `TSX/JSX`, `
 **[See this discussion](https://github.com/cawa-93/vite-electron-builder/discussions/339)** if you want completly remove TypeScript. 
 
 
-### Vue [![Vue version](https://img.shields.io/github/package-json/dependency-version/cawa-93/vite-electron-builder/vue?label=%20)][vue] (optional)
-- By default, web pages are built using [Vue]. However, you can easily change it. Or do not use additional frameworks at all. (See [React fork](https://github.com/soulsam480/vite-electron-react-starter))
-- Also, by default, the [vue-router] version [![Vue-router version](https://img.shields.io/github/package-json/dependency-version/cawa-93/vite-electron-builder/vue-router?label=%20)][vue-router] is used.
-- Code formatting rules follow the latest Vue recommendations and best practices thanks to [eslint-plugin-vue].
-- Installed [Vue.js devtools beta](https://chrome.google.com/webstore/detail/vuejs-devtools/ljjemllljcmogpfapbkkighbhhppjdbg) with Vue 3 support.
-
-See [examples of web pages for different frameworks](https://github.com/vitejs/vite/tree/main/packages/create-vite).
 
 ### Continuous Integration
 - The configured workflow for check the types for each push and PR.
@@ -191,8 +186,6 @@ See [Contributing Guide](contributing.md).
 [vite]: https://github.com/vitejs/vite/
 [electron]: https://github.com/electron/electron
 [electron-builder]: https://github.com/electron-userland/electron-builder
-[vue]: https://github.com/vuejs/vue-next
-[vue-router]: https://github.com/vuejs/vue-router-next/
 [typescript]: https://github.com/microsoft/TypeScript/
 [playwright]: https://playwright.dev
 [vue-tsc]: https://github.com/johnsoncodehk/vue-tsc
