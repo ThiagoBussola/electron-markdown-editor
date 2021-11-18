@@ -1,4 +1,4 @@
-# FOR ELECTRON TRANSPARENT BUG REPORTED, RUN: npm run watcj
+# FOR ELECTRON TRANSPARENT BUG REPORTED, RUN: npm run watch
 
 # Vite Electron Builder Boilerplate v2
 
